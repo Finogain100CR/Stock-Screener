@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Starting Application..!!"
+
+cd Setup
+
+docker build --rm -t stockscreener .
+
+echo "Setup Complete"
